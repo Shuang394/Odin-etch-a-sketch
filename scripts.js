@@ -5,7 +5,7 @@ let root = document.querySelector("#root");
 for (i = 0; i < 16; i++){
     // create a new flex div for every iteration, 16 times
     let div = document.createElement("div");
-    div.setAttribute("style", "display: flex")
+    div.setAttribute("style", "display: flex; justify-content: space-evenly")
 
     //append the div to root
     root.appendChild(div);
